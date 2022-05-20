@@ -1,0 +1,26 @@
+:root {
+    --darkBlue: #2F3E46;
+    --blue: #354F52;
+    --teal: #52796F;
+    --lightTeal: #84A98C;
+    --grey: #e7f2df;
+}
+
+.navbar {
+    background: #2F3E46;
+    height: 100px;
+  }
+  
+  .navbar a {
+    color: var(--grey);
+    
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 25px;
+    line-height: 3; 
+  }
+
+  a:hover {
+      color: var(--blue)
+  }
+  
