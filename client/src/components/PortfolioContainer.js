@@ -5,20 +5,21 @@ import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Projects from './pages/Projects';
 
-export default PortfolioContainer = () => {
+export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('About');
+console.log(currentPage)
 
     const renderPage = () => {
         if (currentPage === 'About') {
             return <About />;
         }
-        if (currentPage === 'Projects') {
-            return <Projects />;
+        if (currentPage === 'Resume') {
+            return <Resume />;
         }
         if (currentPage === 'Contact') {
             return <Contact />;
         }
-        return <Resume />;
+        return <Projects />;
     };
 
     const handlePageChange = (page) => setCurrentPage(page);
@@ -27,8 +28,9 @@ export default PortfolioContainer = () => {
         <div>
             <Navbar currentPage= {currentPage} handlePageChange= {handlePageChange} />
             {renderPage()}
+            
         </div>
     )
 
-};
+}
 
