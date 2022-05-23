@@ -1,19 +1,16 @@
 import React from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer"
-// import Section from "./components/Section";
-import Navbar from "./components/Navbar";
-import Contact from "./components/pages/Contact"
+import PortfolioContainer from './components/PortfolioContainer'
+// import Header from "./components/Header";
+// import Footer from "./components/Footer"
+// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+// import About from "./components/pages/About";
+// import Projects from "./components/pages/Projects";
+// import Contact from "./components/pages/Contact";
+// import Resume from "./components/pages/Resume"
+// import Contact from "./components/pages/Contact"
 
-function App() {
-  return (
-    <div>
-      <Header />
-      {/* <Footer />   */}
-      {/* <Section /> */}
-      {/* <About /> */}
-    </div>
-  );
-}
+const App = () => 
+
+<PortfolioContainer />
 
 export default App;
