@@ -8,8 +8,14 @@
 
 
 .resume {
-background-color: var(--darkBlue);
-color: var(--grey);
+    background-color: #394c77;
+color: white;
 /* border: 10px var(--grey); */
 padding-top: 20px;
+font-family: 'Arima Madurai', cursive;
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+
 }
