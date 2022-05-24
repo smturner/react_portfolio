@@ -1,0 +1,15 @@
+:root {
+    --darkBlue: #2F3E46;
+    --blue: #354F52;
+    --teal: #52796F;
+    --lightTeal: #84A98C;
+    --grey: #e7f2df;
+}
+
+
+.resume {
+background-color: var(--darkBlue);
+color: var(--grey);
+/* border: 10px var(--grey); */
+padding-top: 20px;
+}
