@@ -4,7 +4,7 @@
   background-color: #4b5e8a;
 opacity: .9;
     height: 75px;
-    border-bottom:yellow 10px;
+
   }
 
   .nav-link{
@@ -16,6 +16,19 @@ opacity: .9;
 
   }
   
+  .show{
+    background-color: #4b5e8a;
+    margin-top: -5px;
+   opacity: 1;
+
+
+  }
+
+  /* .dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;} */
   #name {
     color: white;
     font-size: 2.5rem;

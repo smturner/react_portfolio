@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Resume.css"
+import "./Pages.css"
 
 const Resume = () => {
     return (
@@ -8,7 +8,7 @@ const Resume = () => {
         <div className="container">
             <div className="row">
                 <div className="col-lg-10 mx-auto mb-4">
-                    <h1 className="text-center">Resume</h1>
+                    <h1 className="text-center" id="resume">Resume</h1>
                     <hr className="my-4" />
                     <h3>Front-end Proficiencies:</h3>
                     <ul>

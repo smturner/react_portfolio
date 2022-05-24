@@ -1,0 +1,41 @@
+:root {
+    --darkBlue: #2F3E46;
+    --blue: #354F52;
+    --teal: #52796F;
+    --lightTeal: #84A98C;
+    --grey: #e7f2df;
+}
+
+#resume,
+#contact {
+    font-size: 50px;
+
+}
+.resume,
+.contact {
+    background-color: #394c77;
+    color: white;
+    padding-top: 20px;
+    font-family: 'Arima Madurai', cursive;
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+}
+
+#btn {
+    background-color: #0c1e44;
+    border-color: #0c1e44;
+    margin-top: 10px;
+    /* display:flex;
+    justify-items: center; */
+    width: 100px;
+    padding: 10px 20px 10px 20px;
+}
+
+.form-label{
+    font-size: 30px;
+    /* font-family: 'Arima Madurai', cursive; */
+
+
+}
