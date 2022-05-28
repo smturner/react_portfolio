@@ -9,6 +9,7 @@
 .aboutMe {
     background-image: url("./benjamin-voros-phIFdC6lA4E-unsplash.jpg");
     background-size: cover;
+    margin-top: -75px;
     /* background-image: url("./assets/img/header.jpg"); */
 padding-bottom: 500px;
    color: white;
@@ -17,9 +18,14 @@ padding-bottom: 500px;
    padding-top: 20px;
    font-family: 'Arima Madurai', cursive;
 }
+/* .page {
+    margin-top: 75px;
+} */
 
 .title{
     font-size: 50px;
+    margin-top: 75px;
+
 
 }
 p {

@@ -1,6 +1,6 @@
 import React from 'react';
 // Here we import the Navbar.css file to grant access to some additional classNames
-import './Navbar.css';
+import '../styles/Navbar.css';
 // import {Link} from "react-router-dom"
 
 
@@ -26,7 +26,7 @@ function Navbar({ currentPage, handlePageChange }) {
                   
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#resume" onClick={() => handlePageChange('Resume')} className = {currentPage === 'Resume' ? 'nav-link active' : 'nav-link'} >Resume</a>
+                    <a  href="#resume" onClick={() => handlePageChange('Resume')} className = {currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}> Resume</a>   
                     </li>
                 </ul>
                 </div>

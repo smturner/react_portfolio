@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css'
+import '../styles/Footer.css'
 
 const Footer = () => {
 
@@ -16,9 +16,9 @@ const Footer = () => {
 
     return(
         <section>
-            <footer className="container">
+            <footer className="container-fluid">
                 <div className="row">
-                    <div className ="col-lg-8 mx-auto text-center">
+                    <div className ="text-center ">
                         {icons.map(icon => (
                             <a href= {icon.link} key={icon.name} target="_blank" rel="noreferrer"> <i className={icon.name}></i></a>
                         ))

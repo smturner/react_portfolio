@@ -3,7 +3,6 @@ import "./Pages.css"
 
 const Resume = () => {
     return (
-        // <p>Resume</p>
         <section className="resume">
         <div className="container">
             <div className="row">
@@ -40,8 +39,8 @@ const Resume = () => {
                         <li>Time-Management</li>
                         <li>Leadership</li>
                     </ul>
-                    <p className="text-center">
-                        Download my resume here --
+                    <p className="text-center"  >
+                      Click here for my Resume -- <a href= "https://docs.google.com/document/d/1ZYFMtSXyPDsre2BaGtCEgg3zKPXljMuVeqciTOprE3k/edit?usp=sharing">Resume Link</a>
                     </p>
                 </div>
             </div>

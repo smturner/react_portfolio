@@ -6,7 +6,7 @@ const About = () => {
         <section className="aboutMe">        
             <div className="container my-auto">
                 <div className="row">
-                    <div className="col-lg-10 mx-auto">
+                    <div className="page col-lg-10 mx-auto">
                     <h1 className="title text-center">About Me</h1>
                     <hr className="my-4" />
                         <p>

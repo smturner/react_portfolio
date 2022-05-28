@@ -1,0 +1,17 @@
+footer {
+    background-color: #4b5e8a;
+ 
+}
+
+a {
+    /* display:flex; */
+   font-size: 30px;
+   text-decoration: none !important;
+
+    color: white!important
+}
+
+
+/* a.white-link {
+    color: white;
+} */
