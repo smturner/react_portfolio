@@ -16,11 +16,11 @@ const Footer = () => {
 
     return(
         <section>
-            <footer className="container-fluid">
+            <footer className="container-fluid justify-content-center">
                 <div className="row">
                     <div className ="text-center ">
                         {icons.map(icon => (
-                            <a href= {icon.link} key={icon.name} target="_blank" rel="noreferrer"> <i className={icon.name}></i></a>
+                            <a id="icon"href= {icon.link} key={icon.name} target="_blank" rel="noreferrer"> <i className={icon.name}></i></a>
                         ))
                         }
                         </div>

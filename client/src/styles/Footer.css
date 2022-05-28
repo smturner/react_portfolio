@@ -1,13 +1,14 @@
 footer {
     background-color: #4b5e8a;
+    padding: 20px;
  
 }
 
-a {
+#icon{
     /* display:flex; */
-   font-size: 30px;
+   font-size: 40px;
    text-decoration: none !important;
-
+    margin-right: 0px;
     color: white!important
 }
 

@@ -15,19 +15,28 @@ function Navbar({ currentPage, handlePageChange }) {
                 <div className="collapse navbar-collapse " id="navbarTogglerDemo02">   
                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0" id="navLinks" >
                     <li className="nav-item">
-                        <a  href="#about" onClick={() => handlePageChange('About')} className = {currentPage === 'About' ? 'nav-link active' : 'nav-link'}> About Me</a>        
+                        <a  href="#about" id="About" onClick={handlePageChange} className = {currentPage === 'About' ? 'nav-link active' : 'nav-link'}> About Me</a>        
                          </li>
-                    <li className="nav-item">
+                         <li className="nav-item">
+                        <a  href="##portfolio" id="Portfolio" onClick={handlePageChange} className = {currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}> Portfolio</a>        
+                         </li>
+                    {/* <li className="nav-item">
                     <a  href="#portfolio" onClick={() => handlePageChange('Portfolio')} className = {currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}> Portfolio</a>   
                    
-                    </li>
+                    </li> */}
                     <li className="nav-item">
-                    <a  href="#contact" onClick={() => handlePageChange('Contact')} className = {currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}> Contact</a>   
+                        <a  href="#contact" id="Contact" onClick={handlePageChange} className = {currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}> Contact </a>        
+                         </li>
+                    {/* <li className="nav-item">
+                    <a  href="#contact" onClick={() => handlePageChange('Contact')} className = {currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}> Contact</a>    */}
                   
-                    </li>
+                    {/* </li> */}
                     <li className="nav-item">
+                        <a  href="#resume" id="Resume" onClick={handlePageChange} className = {currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}> Resume</a>        
+                         </li>
+                    {/* <li className="nav-item">
                     <a  href="#resume" onClick={() => handlePageChange('Resume')} className = {currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}> Resume</a>   
-                    </li>
+                    </li> */}
                 </ul>
                 </div>
             </div>

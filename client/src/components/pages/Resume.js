@@ -39,8 +39,8 @@ const Resume = () => {
                         <li>Time-Management</li>
                         <li>Leadership</li>
                     </ul>
-                    <p className="text-center"  >
-                      Click here for my Resume -- <a href= "https://docs.google.com/document/d/1ZYFMtSXyPDsre2BaGtCEgg3zKPXljMuVeqciTOprE3k/edit?usp=sharing">Resume Link</a>
+                    <p id= "resume" className="text-center "  >
+                      Click here for my Resume -- <a id="resume-link" href= "https://docs.google.com/document/d/1ZYFMtSXyPDsre2BaGtCEgg3zKPXljMuVeqciTOprE3k/edit?usp=sharing">Resume Link</a>
                     </p>
                 </div>
             </div>

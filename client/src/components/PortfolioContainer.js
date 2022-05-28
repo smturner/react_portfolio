@@ -23,7 +23,14 @@ console.log(currentPage)
         return <Projects />;
     };
 
-    const handlePageChange = (page) => setCurrentPage(page);
+    const handlePageChange = (event) => {
+        event.preventDefault();
+        if(event && event.currentTarget) {
+            setCurrentPage(event.currentTarget.id);
+        }else {
+            setCurrentPage('About');
+        }
+    } 
 
     return (
         <div>
