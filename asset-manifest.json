@@ -1,16 +1,27 @@
 {
   "files": {
-    "main.css": "/react_portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/react_portfolio/static/js/main.4cdd9ef9.js",
-    "static/js/787.a2cb61a6.chunk.js": "/react_portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/logo.svg": "/react_portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/react_portfolio/static/css/main.0149c5ad.css",
+    "main.js": "/react_portfolio/static/js/main.30b75dfc.js",
+    "static/media/benjamin-voros-phIFdC6lA4E-unsplash.jpg": "/react_portfolio/static/media/benjamin-voros-phIFdC6lA4E-unsplash.3a710a0547c6a33ac100.jpg",
+    "static/media/Weight 2 Go.jpg": "/react_portfolio/static/media/Weight 2 Go.9ce29562907cd5d0d0f6.jpg",
+    "static/media/Movie Generator.jpg": "/react_portfolio/static/media/Movie Generator.2b29acd51b829e34e28a.jpg",
+    "static/media/SQL Employee Manager.jpg": "/react_portfolio/static/media/SQL Employee Manager.ed44097bfb4808553404.jpg",
+    "static/media/E-Commerce.jpg": "/react_portfolio/static/media/E-Commerce.6f384f45893ce11c381d.jpg",
+    "static/media/Readme Generator.jpg": "/react_portfolio/static/media/Readme Generator.f991df5b81b90400e009.jpg",
+    "static/media/Social Network API.jpg": "/react_portfolio/static/media/Social Network API.515a46242e1ecf4b9a28.jpg",
+    "static/media/Tech Blog.jpg": "/react_portfolio/static/media/Tech Blog.e815c8a002192b1856e2.jpg",
+    "static/media/Work Day Scheduler.jpg": "/react_portfolio/static/media/Work Day Scheduler.ef6288bfc18c89fd94af.jpg",
+    "static/media/mypicture.jpg": "/react_portfolio/static/media/mypicture.2f260e8fd083440f709f.jpg",
+    "static/media/Code Quiz.jpg": "/react_portfolio/static/media/Code Quiz.1cacdb0a8e5775bcfd04.jpg",
+    "static/media/Password Generator.jpg": "/react_portfolio/static/media/Password Generator.f4a59490e42adf835159.jpg",
+    "static/media/Note Taker.jpg": "/react_portfolio/static/media/Note Taker.c82b6367052b3b66be86.jpg",
+    "static/media/Team Profile Generator.jpg": "/react_portfolio/static/media/Team Profile Generator.1669e4b7dcd3ad4ba5ad.jpg",
     "index.html": "/react_portfolio/index.html",
-    "main.073c9b0a.css.map": "/react_portfolio/static/css/main.073c9b0a.css.map",
-    "main.4cdd9ef9.js.map": "/react_portfolio/static/js/main.4cdd9ef9.js.map",
-    "787.a2cb61a6.chunk.js.map": "/react_portfolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.0149c5ad.css.map": "/react_portfolio/static/css/main.0149c5ad.css.map",
+    "main.30b75dfc.js.map": "/react_portfolio/static/js/main.30b75dfc.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.4cdd9ef9.js"
+    "static/css/main.0149c5ad.css",
+    "static/js/main.30b75dfc.js"
   ]
 }
